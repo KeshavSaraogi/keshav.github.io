@@ -1,0 +1,11 @@
+#typing-text {
+  border: none;
+  font-weight: bold;
+  text-align: center;
+  overflow: auto;
+  outline: none;
+  resize: none;
+  background: transparent;
+  font-size: 1.5rem;
+  color: var(--light-shades);
+  }

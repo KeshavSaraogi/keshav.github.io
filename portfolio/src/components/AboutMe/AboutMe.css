@@ -1,0 +1,20 @@
+.aboutme-container {
+    padding: var(--page-padding);
+    display: flex;
+    gap: var(--gap);
+    justify-content: center;
+    align-items: center;
+}
+  
+.aboutme-container img {
+    max-width: 50%;
+    max-height: 300px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 1.5px 1.5px 1.5px 1px rgba(0,0,0,0.2);
+}
+
+.aboutme-container img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}

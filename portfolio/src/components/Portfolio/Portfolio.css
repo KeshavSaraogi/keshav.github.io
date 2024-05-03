@@ -1,0 +1,45 @@
+.portfolio-container {
+  padding: var(--page-padding);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap);
+}
+
+.portfolio-projects-frame img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+.portfolio-projects-frame img:hover {
+  filter: brightness(0.8);
+}
+
+.portfolio-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--gap);
+  justify-items: center;
+}
+
+.portfolio-grid .portfolio-projects-frame img::after {
+  content: "View More";
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: var(--light-shades);
+  display: none;  
+}
+
+.portfolio-grid .portfolio-projects-frame img:hover::after {
+  display: block;
+}
+
+.portfolio-item + .portfolio-item {
+  border-top: 1px solid var(--light-shades);
+  padding-top: 20px;
+}
