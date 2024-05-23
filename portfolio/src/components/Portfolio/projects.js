@@ -1,9 +1,9 @@
 export const projects = [
   {
-    title: "Presidents Gallery",
-    description: "Created a Presidents Gallery for US Presidents using React",
+    title: "E-Commerce Web App using React, NodeJS",
+    description: "Online Tech Shop using React, NodeJS for users to buy and sell products with PayPal",
     image: "https://picsum.photos/900",
-    url: "https://github.com/KeshavSaraogi/presidents",
+    url: "https://e-commerce-website-l06q.onrender.com/",
   },
   {
     title: "Whatsapp Clone",
